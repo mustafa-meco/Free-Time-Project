@@ -13,5 +13,5 @@ def timerange_to_minutes(t_Str):
     return hour_to_minutes + int(minutes_str)
 
 if __name__ == "__main__":
-    time_str = input("enter time string")
+    time_str = input("enter time string: ")
     print(timerange_to_minutes(time_str))
